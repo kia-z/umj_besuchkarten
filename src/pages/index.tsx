@@ -1,10 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Inter } from 'next/font/google'
 import {Row, Col, Container, Button} from 'react-bootstrap'
 
-const inter = Inter({ subsets: ['latin'] })
 const newDate = new Date()
 const date = newDate.getDate()
 const month = newDate.getMonth() + 1;
@@ -53,7 +51,7 @@ export default function Home() {
         </Row>
         </Container>
 
-        <Container><a href="/extraquestions">Other possible formats for questions</a></Container>
+        <Container><Link href="/extraquestions">Other possible formats for questions</Link></Container>
       </main>
     </>
   )

@@ -1,14 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Inter } from 'next/font/google'
 import {Row, Col, Container, Button, Form} from 'react-bootstrap'
 import creds from '../umjfeedback.json'
 import { useState } from 'react'
 
 const { GoogleSpreadsheet } = require('google-spreadsheet');
 
-const inter = Inter({ subsets: ['latin'] })
 const newDate = new Date()
 const date = newDate.getDate()
 const month = newDate.getMonth() + 1;
