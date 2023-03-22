@@ -16,7 +16,7 @@ export default function extraQuestions() {
         <title>UMJ feedback</title>
         <meta name="description" content="Test with UMJ, March 2023" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="https://kia-z.github.io/favicon.ico" />
       </Head>
       <main>
         <Container>
@@ -25,11 +25,11 @@ export default function extraQuestions() {
           <p>
             {date}-{month}-{year}
           </p>
-          <Button href='/deutsch'>Deutsch</Button>
+          <Button href='https://kia-z.github.io/deutsch'>Deutsch</Button>
           </Col>
           <Col>
           <Image
-                src="/overviewUMJ.jpg"
+                src="https://kia-z.github.io/overviewUMJ.jpg"
                 alt="UMJ image"
                 width={200}
                 height={200}

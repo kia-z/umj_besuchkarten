@@ -15,7 +15,7 @@ export default function Home() {
         <title>UMJ feedback</title>
         <meta name="description" content="Test with UMJ, March 2023" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="https://kia-z.github.io/favicon.ico" />
       </Head>
       <main>
         <Container>
@@ -27,7 +27,7 @@ export default function Home() {
           </Col>
           <Col>
           <Image
-                src="/overviewUMJ.jpg"
+                src="https://kia-z.github.io/overviewUMJ.jpg"
                 alt="UMJ image"
                 width={200}
                 height={200}
@@ -43,15 +43,15 @@ export default function Home() {
         <Container className='mt-5'>
         <Row>
           <Col>
-          <Button variant="primary" size="lg" href='/deutsch'>Deutsch</Button>
+          <Button variant="primary" size="lg" href='https://kia-z.github.io/deutsch'>Deutsch</Button>
           </Col>
           <Col>
-          <Button variant="primary" size="lg" href='/english'>English</Button>
+          <Button variant="primary" size="lg" href='https://kia-z.github.io/english'>English</Button>
           </Col>
         </Row>
         </Container>
 
-        <Container><Link href="/extraquestions">Other possible formats for questions</Link></Container>
+        <Container className='mt-5'><Link href="https://kia-z.github.io/extraquestions">Other possible formats for questions</Link></Container>
       </main>
     </>
   )
