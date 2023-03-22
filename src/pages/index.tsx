@@ -15,7 +15,7 @@ export default function Home() {
         <title>UMJ feedback</title>
         <meta name="description" content="Test with UMJ, March 2023" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="https://kia-z.github.io/umj_besuchkartenumj_besuchkarten/favicon.ico" />
+        <link rel="icon" href="https://kia-z.github.io/umj_besuchkarten/favicon.ico" />
       </Head>
       <main>
         <Container>
@@ -27,7 +27,7 @@ export default function Home() {
           </Col>
           <Col>
           <Image
-                src="https://kia-z.github.io/umj_besuchkartenoverviewUMJ.jpg"
+                src="https://kia-z.github.io/umj_besuchkarten/overviewUMJ.jpg"
                 alt="UMJ image"
                 width={200}
                 height={200}
@@ -43,15 +43,15 @@ export default function Home() {
         <Container className='mt-5'>
         <Row>
           <Col>
-          <Button variant="primary" size="lg" href='https://kia-z.github.io/umj_besuchkartendeutsch'>Deutsch</Button>
+          <Button variant="primary" size="lg" href='https://kia-z.github.io/umj_besuchkarten/deutsch'>Deutsch</Button>
           </Col>
           <Col>
-          <Button variant="primary" size="lg" href='https://kia-z.github.io/umj_besuchkartenenglish'>English</Button>
+          <Button variant="primary" size="lg" href='https://kia-z.github.io/umj_besuchkarten/english'>English</Button>
           </Col>
         </Row>
         </Container>
 
-        <Container className='mt-5'><Link href="https://kia-z.github.io/umj_besuchkartenextraquestions">Other possible formats for questions</Link></Container>
+        <Container className='mt-5'><Link href="https://kia-z.github.io/umj_besuchkarten/extraquestions">Other possible formats for questions</Link></Container>
       </main>
     </>
   )
