@@ -129,10 +129,10 @@ export default function Deutsch() {
     <div className="mb-3 mt-5">
     <Form.Select aria-label="Default select example" onChange={onOptionChangeStatus}>
       <option>Sind Sie ...?</option>
-      <option value="1">...Schüler/in</option>
-      <option value="2">...Studierende/r</option>
-      <option value="3">...Erwachsene/r</option>
-      <option value="3">...Seniorin/Senior</option>
+      <option value="school">...Schüler/in</option>
+      <option value="university">...Studierende/r</option>
+      <option value="adult">...Erwachsene/r</option>
+      <option value="senior">...Seniorin/Senior</option>
     </Form.Select>
     </div>
 

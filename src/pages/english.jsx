@@ -127,10 +127,10 @@ const HandleSubmit =async (e) => {
 
     <Form.Select className="mb-3 mt-5" aria-label="Default select example" onChange={onOptionChangeStatus}>
       <option>Are you ...?</option>
-      <option value="1">...at school</option>
-      <option value="2">...a university student</option>
-      <option value="3">...adult</option>
-      <option value="3">...a senior citizen</option>
+      <option value="school">...at school</option>
+      <option value="university">...a university student</option>
+      <option value="adult">...adult</option>
+      <option value="senior">...a senior citizen</option>
     </Form.Select>
 
     <div className="mb-3 mt-5">
