@@ -133,6 +133,7 @@ export default function Deutsch() {
       <option value="university">...Studierende/r</option>
       <option value="adult">...Erwachsene/r</option>
       <option value="senior">...Seniorin/Senior</option>
+      <option value="fam">...Family</option>
     </Form.Select>
     </div>
 
